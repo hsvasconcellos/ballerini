@@ -282,7 +282,7 @@ body {
     );
   }
 
-  #burguer:hover {
+  #burguer:active {
     background-color: white;
     color: black;
   }
