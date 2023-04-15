@@ -253,13 +253,20 @@ body {
   }
 
   .cabecalho-menu-item {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     padding: 10px;
-    border: 1px solid white;
-    text-transform:;
     font-weight: bold;
     border-radius: 3px;
+    text-decoration: none;
   }
+
+  .cabecalho-menu-item:nth-of-type(-n+1) {
+  border-top: 2px solid rgb(255, 255, 255);
+}
+
+#help {
+  border-top: none;
+}
 
   .cabecalho-imagem {
     height: 200px;
