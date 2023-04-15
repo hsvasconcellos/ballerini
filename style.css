@@ -321,9 +321,6 @@ body {
     margin: 0;
   }
 
-  .cabecalho-imagem {
-    height: 150px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -332,7 +329,4 @@ body {
     gap: 32px;
   }
 
-  .cabecalho-imagem {
-    height: 150px;
-  }
 }
