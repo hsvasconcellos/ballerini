@@ -163,11 +163,16 @@ body {
 
 /* MEDIA QUERIES  */
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
   .conteudo-principal {
     margin-left: 20px;
     margin-right: 20px;
+    
   }
+
+  .conteudo-principal-imagem {
+  margin-left: 30px;
+}
 }
 
 @media (max-width: 950px) {
