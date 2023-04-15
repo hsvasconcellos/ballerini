@@ -170,13 +170,21 @@ body {
   }
 }
 
-@media screen and (min-width: 901px) {
+@media (max-width: 950px) {
+  .conteudo-secundario-paragrafo {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 852px) {
   #listamenu {
     display: flex !important;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 851px) {
   body {
     background: linear-gradient(
       180deg,
