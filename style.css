@@ -29,8 +29,11 @@ body {
   height: 100px;
 }
 
-#listamenu {
+.ajuda {
   display: flex;
+}
+
+#listamenu {
   gap: 32px;
 }
 
@@ -40,6 +43,7 @@ body {
   color: #fff2e7;
   font-weight: 400;
   text-shadow: 1px 1px #000000;
+  display: block;
 }
 
 .conteudo {
@@ -241,18 +245,26 @@ body {
     display: none;
     text-align: center;
     background-color: #717572;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 7px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .ajuda {
+    flex-direction: column;
   }
 
   .cabecalho-menu-item {
     font-size: 1.1rem;
+    padding: 10px;
+    border: 1px solid white;
+    text-transform:;
+    font-weight: bold;
+    border-radius: 3px;
   }
 
   .cabecalho-imagem {
     height: 200px;
   }
+
 }
 
 @media (max-width: 650px) {
@@ -281,11 +293,6 @@ body {
   margin-bottom: 32px;
 }
 
-
-  #burguer {
-    display: block;
-  }
-
   .conteudo-secundario-paragrafo {
     display: inline-block;
     margin: 0 auto;
@@ -306,14 +313,6 @@ body {
 
   .cabecalho {
     justify-content: space-between;
-  }
-
-  #listamenu {
-    display: none;
-    text-align: center;
-    background-color: #717572;
-    border: 1px solid black;
-    padding: 10px;
   }
 
   .conteudo-principal-escrito {
