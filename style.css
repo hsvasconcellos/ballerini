@@ -44,6 +44,7 @@ body {
   font-weight: 400;
   text-shadow: 1px 1px #000000;
   display: block;
+  text-transform: uppercase;
 }
 
 .conteudo {
@@ -258,6 +259,7 @@ body {
     font-weight: bold;
     border-radius: 3px;
     text-decoration: none;
+    text-transform: capitalize;
   }
 
   .cabecalho-menu-item:nth-of-type(-n+1) {
