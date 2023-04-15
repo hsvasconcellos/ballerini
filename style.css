@@ -172,7 +172,7 @@ body {
   }
 
   .conteudo-principal-imagem {
-  margin-left: 30px;
+  height: 301px;
 }
 }
 
@@ -182,6 +182,11 @@ body {
     margin-right: 20px;
     text-align: center;
   }
+
+    .conteudo-principal-imagem {
+  margin-left: 30px;
+}
+
 }
 
 @media screen and (min-width: 852px) {
