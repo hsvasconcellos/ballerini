@@ -167,6 +167,10 @@ body {
   color: black;
 }
 
+#botaoescondido {
+  display: none;
+}
+
 /* MEDIA QUERIES  */
 
 @media (max-width: 1030px) {
@@ -229,8 +233,7 @@ body {
   }
 
   .conteudo-principal-escrito-botao {
-    display: inline-block;
-    margin: 0 auto;
+  display: none;
   }
 
   #burguer {
@@ -272,6 +275,12 @@ body {
 
   .cabecalho-imagem {
     height: 200px;
+  }
+
+  #botaoescondido {
+    display: inline-block;
+    margin: 60px auto 0 auto;
+    padding: 10px;
   }
 
 }
